@@ -105,7 +105,7 @@ for (r in rs) {
     tm[count,]=mean(res)
     tabm[count,]=mean(resW)
     ts[count,]=sd(res)
-    tabs[count,]=mean(resW)
+    tabs[count,]=sd(resW)
     nos[count,]=n
     noc[count,]=r
     count <- count+1
